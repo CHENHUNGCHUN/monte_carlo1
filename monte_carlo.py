@@ -24,6 +24,7 @@ def Monte_Carlo(k,j,l,m):
     plt.grid(True)
     plt.xlabel('times')
     plt.ylabel('capital')
+    plt.show()
     
     if K[-1]>1.3:
         print()
